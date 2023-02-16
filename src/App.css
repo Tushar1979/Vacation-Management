@@ -43,6 +43,7 @@
   box-shadow: rgb(0 0 0 / 19%) 0px 10px 20px, rgb(0 0 0 / 23%) 0px 6px 6px;
   padding: 2rem 9rem;
   border-radius: 20px;
+  text-align: center;
 }
 .text-input{
   margin-bottom: 20px;
@@ -64,4 +65,10 @@
 .cal-box{
   margin: 40px;
 }
-
+.submit-btn{
+  margin-top: 10px;
+  text-align: center;
+}
+.text-box{
+  font-size: 20px;
+}
