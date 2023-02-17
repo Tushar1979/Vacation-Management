@@ -1,0 +1,23 @@
+<!-- calendar.html
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Upcoming Vacations</h1>
+  <h2>Current Month</h2>
+  <ul>
+    {% for vacation in current_month_vacations %}
+      <li>{{ vacation.name }} - {{ vacation.start_date|date:"M d, Y" }} to {{ vacation.end_date|date:"M d, Y" }}</li>
+    {% empty %}
+      <li>No vacations planned this month</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Next Month</h2>
+  <ul>
+    {% for vacation in next_month_vacations %}
+      <li>{{ vacation.name }} - {{ vacation.start_date|date:"M d, Y" }} to {{ vacation.end_date|date:"M d, Y" }}</li>
+    {% empty %}
+      <li>No vacations planned next month</li>
+    {% endfor %}
+  </ul>
+{% endblock %} -->

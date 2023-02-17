@@ -1,0 +1,14 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vacation Manager</title>
+</head>
+<body>
+  <nav>
+    <a href="{% url 'vacation_list' %}">Vacations</a>
+    <a href="{% url 'calendar' %}">Calendar</a>
+  </nav>
+  {% block content %} 
+  {% endblock %}
